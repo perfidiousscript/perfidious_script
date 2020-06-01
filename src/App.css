@@ -1,3 +1,28 @@
+body,
+html {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.bg {
+  height: 100%;
+  width: 100%;
+  background-image: url("./images/tunguska_edited.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  color: black;
+  padding: 1em;
+  font-size: 2.5em;
+}
+
 .App {
   text-align: center;
 }
@@ -26,6 +51,14 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.centerBox {
+  height: 23em;
+  width: 66%;
+  background-color: whitesmoke;
+  display: inline-block;
+  border: 1px solid black;
 }
 
 @keyframes App-logo-spin {
