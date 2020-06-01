@@ -69,3 +69,21 @@ html {
     transform: rotate(360deg);
   }
 }
+
+.linkBox {
+  padding: 2%;
+}
+
+a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: black;
+}
+
+a:link {
+  color: whitesmoke;
+}
+
+a:hover {
+  color: gray;
+}

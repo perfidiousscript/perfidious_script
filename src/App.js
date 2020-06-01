@@ -12,14 +12,14 @@ function App() {
       <div className="App">
         <h1 className="title">Samuel M. Moss</h1>
         <Router>
-          <div className="linkBox">
-            <span>
+          <div className="linkBoxContainer">
+            <span className="linkBox">
               <Link to="/bio">Bio</Link>
             </span>
-            <span>
+            <span className="linkBox">
               <Link to="/credits">Credits</Link>
             </span>
-            <span>
+            <span className="linkBox">
               <Link to="/contact">Contact</Link>
             </span>
           </div>
