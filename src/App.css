@@ -70,8 +70,13 @@ html {
   }
 }
 
+.bioText {
+  margin: 16% 10%;
+  line-height: 183%;
+}
+
 .linkBox {
-  padding: 2%;
+  padding: 4%;
 }
 
 a {
@@ -86,4 +91,7 @@ a:link {
 
 a:hover {
   color: gray;
+}
+
+.contactBox {
 }

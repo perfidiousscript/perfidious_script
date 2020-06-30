@@ -1,7 +1,11 @@
 import React from "react";
 
 function Contact() {
-  return <div>Contact here.</div>;
+  return (
+    <div className="contactBox">
+      <div className="email">thisis.fryou@gmail.com</div>
+    </div>
+  );
 }
 
 export default Contact;
